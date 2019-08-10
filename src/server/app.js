@@ -16,7 +16,7 @@ app.use(bodyParser.json())
 const container = new Container(factories)
 
 app.use(session({
-	secret: 'your mom',
+	secret: 'super',
 	resave: true,
 	saveUninitialized: false
 }))
