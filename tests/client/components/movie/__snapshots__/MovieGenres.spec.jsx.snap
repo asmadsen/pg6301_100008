@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`client/component/movie/MovieCard should match snapshot 1`] = `
+<div>
+  <WithStyles(ForwardRef(Chip))
+    className="makeStyles-chip-1"
+    key="Action"
+    label="Action"
+    size="small"
+  />
+  <WithStyles(ForwardRef(Chip))
+    className="makeStyles-chip-1"
+    key="Drama"
+    label="Drama"
+    size="small"
+  />
+</div>
+`;

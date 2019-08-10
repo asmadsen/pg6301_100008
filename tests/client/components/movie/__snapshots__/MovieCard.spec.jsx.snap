@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`client/component/movie/MovieCard should match snapshot 1`] = `
+<WithStyles(ForwardRef(Card))>
+  <WithStyles(ForwardRef(CardContent))>
+    <div
+      className="makeStyles-cardHeader-2"
+    >
+      <WithStyles(ForwardRef(Typography))
+        component="h5"
+        variant="h5"
+      >
+        Die Hard
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        component="span"
+        variant="subtitle1"
+      >
+        3.6
+      </WithStyles(ForwardRef(Typography))>
+    </div>
+    <MovieGenres
+      genres={
+        Array [
+          "Action",
+          "Drama",
+        ]
+      }
+    />
+    <WithStyles(ForwardRef(Typography))
+      component="p"
+      variant="body2"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </WithStyles(ForwardRef(Typography))>
+  </WithStyles(ForwardRef(CardContent))>
+  <WithStyles(ForwardRef(CardActions))>
+    <div
+      className="makeStyles-spacing-1"
+    />
+    <WithStyles(ForwardRef(Button))
+      component={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        }
+      }
+      size="small"
+      to="/movies/1"
+    >
+      Read More
+    </WithStyles(ForwardRef(Button))>
+  </WithStyles(ForwardRef(CardActions))>
+</WithStyles(ForwardRef(Card))>
+`;
