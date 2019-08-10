@@ -9,7 +9,7 @@ Object.fromEntries = entries => entries.reduce((acc, [key, value]) => {
 }, {})
 
 process.env = Object.assign(process.env, { ENVIRONMENT: 'development' })
-
+global.console.error = () => {}
 /*
 const copyProps = (src, target) => {
 	const props = Object.getOwnPropertyNames(src)

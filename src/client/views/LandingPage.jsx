@@ -81,8 +81,6 @@ const LandingPage = props => {
 		runtime: 'asc'
 	}
 
-	console.log(genres)
-
 	return (
 		<Container fixed>
 			<Toolbar>
