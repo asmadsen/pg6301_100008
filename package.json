@@ -79,7 +79,7 @@
     "body-parser": "^1.19.0",
     "clsx": "latest",
     "date-fns": "^2.0.0-beta.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-history-api-fallback": "^2.2.1",
     "express-session": "^1.16.2",
     "express-ws": "^4.0.0",
